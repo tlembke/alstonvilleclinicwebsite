@@ -90,11 +90,11 @@ collections:
               - { label: "Description", name: "description", widget: "text" }
           - label: "Fees Information"
             name: "fees"
-            widget: "object"
+            widget: "list"
             fields:
-              - { label: "Standard Consultation", name: "standard", widget: "string" }
-              - { label: "Bulk Billing", name: "bulkBilling", widget: "string" }
-              - { label: "MyMedicare", name: "medicare", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string", hint: "e.g., '$50 gap' or 'No gap'" }
+              - { label: "Description", name: "description", widget: "text", hint: "Detailed fee information" }
 
       - label: "Services"
         name: "services"

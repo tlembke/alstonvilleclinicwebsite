@@ -332,44 +332,31 @@ const latestPosts = allPosts
           </span>
           <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Transparent, Fair Pricing</h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Quality healthcare with clear pricing and bulk billing options
+            Quality healthcare with clear pricing information
           </p>
         </div>
 
-        <div class="max-w-5xl mx-auto">
+        <div class="max-w-6xl mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-2xl p-8 border-2 border-gray-200 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-              <div class="p-3 bg-gray-100 rounded-xl w-fit mb-4">
-                <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-              </div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-3">Standard Consultations</h3>
-              <p class="text-gray-600 text-lg">{clinicInfo.fees.standard}</p>
-            </div>
-
-            <div class="bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl p-8 shadow-2xl hover:shadow-primary-500/50 transition-all hover:-translate-y-1 relative overflow-hidden">
-              <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
-              <div class="relative z-10">
-                <div class="p-3 bg-white/20 rounded-xl w-fit mb-4">
-                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
+            {
+              clinicInfo.fees.map((feeCategory: any, index: number) => (
+                <div class={`rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 ${
+                  index === 1
+                    ? 'bg-gradient-to-br from-primary-500 to-primary-700 text-white border-2 border-primary-400'
+                    : 'bg-white border-2 border-gray-200'
+                }`}>
+                  <h3 class={`text-2xl font-bold mb-2 ${index === 1 ? 'text-white' : 'text-gray-900'}`}>
+                    {feeCategory.title}
+                  </h3>
+                  <p class={`text-lg font-semibold mb-6 ${index === 1 ? 'text-white/90' : 'text-primary-600'}`}>
+                    {feeCategory.subtitle}
+                  </p>
+                  <div class={`text-base leading-relaxed whitespace-pre-line ${index === 1 ? 'text-white/95' : 'text-gray-600'}`}>
+                    {feeCategory.description}
+                  </div>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3">Bulk Billing</h3>
-                <p class="text-white/95 text-lg">{clinicInfo.fees.bulkBilling}</p>
-              </div>
-            </div>
-
-            <div class="bg-white rounded-2xl p-8 border-2 border-gray-200 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-              <div class="p-3 bg-blue-100 rounded-xl w-fit mb-4">
-                <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
-                </svg>
-              </div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-3">MyMedicare Benefits</h3>
-              <p class="text-gray-600 text-lg">{clinicInfo.fees.medicare}</p>
-            </div>
+              ))
+            }
           </div>
         </div>
       </div>

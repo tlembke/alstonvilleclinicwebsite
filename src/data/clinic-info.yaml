@@ -40,6 +40,33 @@ philosophy:
     description: "We maintain the highest standards of clinical quality and patient safety."
 
 fees:
-  standard: "Standard consultation gap fees apply"
-  bulkBilling: "We bulk bill eligible patients including children under 16, pensioners, and veterans"
-  medicare: "MyMedicare registered patients receive additional benefits"
+  - title: "Standard"
+    subtitle: "$50 gap"
+    description: |
+      The full amount for your consultation is payable on the day of service. The standard out of pocket gap for a consultations at the Alstonville Clinic is $50. The charge for a service therefore will be the rebate provided by Medicare plus an additional $50. Currently, the charge for a standard consultation is $93.90, of which $43.90 is available as a rebate from Medicare.
+
+      The gap for an extended consultation is $65 – the fee is $149.90, of which the rebate is $84.90.
+
+      A discounted out of pocket gap of $40 is available for Health Care Card holders and people on a Commonwealth pension. The discounted charge for a standard consultation is $83.90, and for an extended consultation is $124.90.
+
+      Additional services, such as biopsies, ECGs or spirometry, will be charged as 'Medicare rebate only', so there is no additional gap payment.
+
+      Some services, such as surgical procedures or infusions, application of a plaster cast, and insertion of a Mirena IUCD, may attract an additional, non-rebatable fee. Please check with reception when booking your appointment.
+
+      Home Visits (In Hours) have an $80 out of pocket gap.
+  - title: "Children 5 years and under"
+    subtitle: "No gap"
+    description: |
+      Children aged 5 and under have no gap payment for all appointments in normal surgery hours.
+
+      The full amount of the consultation will be directly billed from Medicare and no payment will be required on the day.
+
+      After hours consultations for children have the usual after hours gap fee.
+  - title: "After Hours"
+    subtitle: "$100 gap (for existing patients only)"
+    description: |
+      For existing patients of the clinic, a 'doctor-on-call' is available for urgent advice and consultation after normal surgery hours.
+
+      After hours consultations are charged at the Medicare rebate plus an additional maximum $100 gap, so patients will be at most $100 out of pocket.
+
+      An invoice for the total amount will be sent during normal business hours after the consultation. There is no need to pay on the day, and the rebate portion of the fee can be claimed back from Medicare before paying your account.
