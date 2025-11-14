@@ -112,7 +112,7 @@ team:
     roles:
       - doctor
   - name: Janeen Morris
-    title: Practice Manager & Nursing Team Lead
+    title: Practice Manager
     image: /images/team/janeen-morris.jpg
     bio: Janeen has been with the clinic since 2007, leading our nursing team with
       dedication and expertise. Enjoys bush walking with family.
@@ -120,7 +120,6 @@ team:
       - Practice Management
       - Nursing Leadership
     roles:
-      - nurse
       - admin
   - name: Wren Casement
     title: Practice Nurse
@@ -151,55 +150,54 @@ team:
       - General Practice Nursing
     roles:
       - nurse
-  - name: Angela Marriott
-    title: Accounts
-    image: /images/team/angela-marriott.jpg
-    bio: Angela manages our accounts with precision and care, ensuring smooth
-      financial operations for the clinic.
+  - name: Danina Jensen
+    title: Practice Nurse
+    image: /images/team/placeholder.jpg
+    bio: Danina is a valued member of our nursing team.
+    specialties:
+      - General Practice Nursing
     roles:
-      - admin
-  - name: Karan Tucker
-    title: Accounts
-    image: /images/team/karan-tucker.jpg
-    bio: Karan is part of our accounts team, helping to keep our practice running
-      efficiently.
+      - nurse
+  - name: Michelle Patch
+    title: Practice Nurse
+    image: /images/team/placeholder.jpg
+    bio: Michelle is a valued member of our nursing team.
+    specialties:
+      - General Practice Nursing
     roles:
-      - admin
-  - name: Kerrilee Brown
-    title: Receptionist
-    image: /images/team/kerrilee-brown.jpg
-    bio: Kerrilee is a friendly face at our reception, helping patients with
-      appointments and inquiries.
+      - nurse
+  - name: Harlie Byrnes
+    title: Practice Nurse
+    image: /images/team/placeholder.jpg
+    bio: Harlie is a valued member of our nursing team.
+    specialties:
+      - General Practice Nursing
     roles:
-      - admin
-  - name: Regan Vidler
-    title: Receptionist
-    image: /images/team/regan-vidler.jpg
-    bio: Regan provides excellent customer service at our front desk, ensuring a
-      welcoming experience for all patients.
+      - nurse
+  - name: Mylee Kelly
+    title: Practice Nurse
+    image: /images/team/placeholder.jpg
+    bio: Mylee is a valued member of our nursing team.
+    specialties:
+      - General Practice Nursing
     roles:
-      - admin
-  - name: Sue Bryant
-    title: Receptionist
-    image: /images/team/sue-bryant.jpg
-    bio: Sue is part of our solutions-focused reception team, serving as a main
-      liaison between patients and our healthcare providers.
+      - nurse
+  - name: Stephanie Gelfius
+    title: Practice Nurse
+    image: /images/team/placeholder.jpg
+    bio: Stephanie is a valued member of our nursing team.
+    specialties:
+      - General Practice Nursing
     roles:
-      - admin
-  - name: Jodie Dardengo
-    title: Receptionist
-    image: /images/team/jodie-dardengo.jpg
-    bio: Jodie welcomes patients with a friendly smile and helps coordinate their
-      care with our medical team.
+      - nurse
+  - name: Zoe Gale
+    title: Practice Nurse
+    image: /images/team/placeholder.jpg
+    bio: Zoe is a valued member of our nursing team.
+    specialties:
+      - General Practice Nursing
     roles:
-      - admin
-  - name: Anne Moehead
-    title: Memory Assessment Specialist (Retired)
-    image: /images/team/anne-moehead.jpg
-    bio: Anne provided invaluable support at our Annexe with memory assessments.
-      We're grateful for her dedicated service to our patients and community.
-    roles:
-      - admin
+      - nurse
   - name: Carolyn Davis
     title: Accredited Dietitian
     image: /images/team/carolyn-davis.jpg
