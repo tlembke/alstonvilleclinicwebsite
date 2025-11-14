@@ -23,13 +23,12 @@ team:
       - doctor
   - name: Dr Joshua Kingston
     title: GP, Partner
-    image: /images/team/josh-kingston.jpg
-    bio: Josh came to Alstonville Clinic in 2014 as a GP Registrar and has been
-      with the Clinic ever since passing his Fellowship examination (with flying
-      colours). When not at the clinic, you'll have trouble keeping up with Josh,
-      on his bike or chasing his young son Silas.
+    image: /images/team/joshua-kingston.jpg
+    bio: Joshua joined the clinic in 2014 as a GP Registrar and passed his
+      Fellowship examination. An active cyclist and father to young son Silas.
     specialties:
       - General Practice
+      - Sports Medicine
     roles:
       - doctor
   - name: Dr Luke Hogan
@@ -128,15 +127,6 @@ team:
     image: /images/team/wren-casement.jpg
     bio: Wren brings her nursing experience to us from the UK via Lightning Ridge,
       offering a unique perspective and valuable skills to our team.
-    specialties:
-      - General Practice Nursing
-    roles:
-      - nurse
-  - name: Lyn Wade
-    title: Practice Nurse
-    image: /images/team/lyn-wade.jpg
-    bio: Lyn is a senior team member and North Coast local. When not caring for
-      patients, she enjoys kayaking and spoiling her grandchildren.
     specialties:
       - General Practice Nursing
     roles:
