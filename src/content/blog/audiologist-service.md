@@ -3,7 +3,10 @@ title: "Audiologist Now Available at Our Annexe"
 description: "Nick Robson, qualified Audiologist, now offering hearing services locally from our Daley St Annexe"
 pubDate: 2024-10-16
 author: "Alstonville Clinic"
+image: "/images/blog/northern-rivers-audiology.jpg"
 ---
+
+![Northern Rivers Audiology](/images/blog/northern-rivers-audiology.jpg)
 
 From Thursday 16th October we are lucky to have a qualified Audiologist Nick Robson working locally from our Annexe building in Daley St. As he is working independently from our clinic, all appointments are to be made through his mobile number on **0461322765**.
 
