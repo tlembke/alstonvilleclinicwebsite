@@ -3,6 +3,7 @@ title: "Diabetic Group Clinics"
 description: "Joni our diabetic educator runs successful diabetes clinics enhancing the health of Alstonville patients"
 pubDate: 2024-11-14
 author: "Alstonville Clinic"
+image: "/images/blog/joni-diabetes.jpg"
 ---
 
 ![Joni conducting a diabetes group clinic](/images/blog/joni-diabetes.jpg)
