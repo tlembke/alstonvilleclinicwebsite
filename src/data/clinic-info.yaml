@@ -1,72 +1,93 @@
-name: "Alstonville Clinic"
-tagline: "Your Medical Home"
-address: "61 Main St, Alstonville, NSW 2477"
-phone: "02 6628 0505"
-fax: "(02) 6628 2508"
-email: "reception@alstonville.clinic"
-
+name: Alstonville Clinic
+tagline: Your Medical Home
+address: 61 Main St, Alstonville, NSW 2477
+phone: 02 6628 0505
+fax: (02) 6628 5627
+email: manager@alstonvilleclinic.com.au
 hours:
-  - day: "Monday - Friday"
-    time: "8:30 AM - 5:00 PM"
-  - day: "Saturday"
-    time: "9:00 AM - 11:00 AM"
-  - day: "Other hours"
+  - day: Monday - Friday
+    time: 8:30 AM - 5:00 PM
+  - day: Saturday
+    time: 9:00 AM - 11:00 AM
+  - day: Other hours
     time: "'On call' 02 6628 0505"
-
 quickLinks:
-  - label: "Book Online"
-    url: "https://book.alstonville.clinic"
-    icon: "calendar"
-    type: "primary"
-  - label: "Call Now"
-    url: "tel:0266280505"
-    icon: "phone"
-    type: "secondary"
-  - label: "Email Us"
-    url: "mailto:reception@alstonville.clinic"
-    icon: "email"
-    type: "secondary"
-
+  - label: Book Online
+    url: https://book.alstonville.clinic
+    icon: calendar
+    type: primary
+  - label: Call Now
+    url: tel:0266280505
+    icon: phone
+    type: secondary
+  - label: Email Us
+    url: mailto:reception@alstonville.clinic
+    icon: email
+    type: secondary
 philosophy:
-  - title: "Accessible Care"
-    description: "All our patients with acute care needs can be seen by one of our doctors each day. Routine appointments can also be scheduled with any of our doctors at any time in the future."
-  - title: "Person Centred Care"
-    description: "We focus on patient health needs and adopt a shared decision making approach. We maintain a Patient Advisory Group to guide improvements."
-  - title: "Comprehensive Care"
-    description: "Our team includes general practitioners, registered nurses, chronic condition managers, and allied health professionals, with many doctors serving the community for over 20 years."
-  - title: "Coordinated Care"
-    description: "We aim to ensure patients can access the care team they need to best manage their health through partnerships with local specialists and a care coordinator for complex cases."
-  - title: "Quality and Safety"
-    description: "We pursue continuous quality improvement and operate a Patient Safety program, with all doctors participating in professional development as RACGP fellows or members."
-
+  - title: Accessible Care
+    description: All our patients with acute care needs can be seen by one of our
+      doctors each day. Routine appointments can also be scheduled with any of
+      our doctors at any time in the future.
+  - title: Person Centred Care
+    description: We focus on patient health needs and adopt a shared decision making
+      approach. We maintain a Patient Advisory Group to guide improvements.
+  - title: Comprehensive Care
+    description: Our team includes general practitioners, registered nurses, chronic
+      condition managers, and allied health professionals, with many doctors
+      serving the community for over 20 years.
+  - title: Coordinated Care
+    description: We aim to ensure patients can access the care team they need to
+      best manage their health through partnerships with local specialists and a
+      care coordinator for complex cases.
+  - title: Quality and Safety
+    description: We pursue continuous quality improvement and operate a Patient
+      Safety program, with all doctors participating in professional development
+      as RACGP fellows or members.
 fees:
-  - title: "Standard"
-    subtitle: "$50 Gap ($40 concession)"
-    description: |
-      The full amount for your consultation is payable on the day of service. The standard out of pocket gap for a consultations at the Alstonville Clinic is $50. The charge for a service therefore will be the rebate provided by Medicare plus an additional $50. Currently, the charge for a standard consultation is $93.90, of which $43.90 is available as a rebate from Medicare.
+  - title: Standard
+    subtitle: $50 Gap ($40 concession)
+    description: >
+      The full amount for your consultation is payable on the day of service.
+      The standard out of pocket gap for a consultations at the Alstonville
+      Clinic is $50. The charge for a service therefore will be the rebate
+      provided by Medicare plus an additional $50. Currently, the charge for a
+      standard consultation is $93.90, of which $43.90 is available as a rebate
+      from Medicare.
+
 
       The gap for an extended consultation is $65 – the fee is $149.90, of which the rebate is $84.90.
 
+
       A discounted out of pocket gap of $40 is available for Health Care Card holders and people on a Commonwealth pension. The discounted charge for a standard consultation is $83.90, and for an extended consultation is $124.90.
+
 
       Additional services, such as biopsies, ECGs or spirometry, will be charged as 'Medicare rebate only', so there is no additional gap payment.
 
+
       Some services, such as surgical procedures or infusions, application of a plaster cast, and insertion of a Mirena IUCD, may attract an additional, non-rebatable fee. Please check with reception when booking your appointment.
 
+
       Home Visits (In Hours) have an $80 out of pocket gap.
-  - title: "Children 5 years and under"
-    subtitle: "No gap"
-    description: |
-      Children aged 5 and under have no gap payment for all appointments in normal surgery hours.
+  - title: Children 5 years and under
+    subtitle: No gap
+    description: >
+      Children aged 5 and under have no gap payment for all appointments in
+      normal surgery hours.
+
 
       The full amount of the consultation will be directly billed from Medicare and no payment will be required on the day.
 
+
       After hours consultations for children have the usual after hours gap fee.
-  - title: "After Hours"
-    subtitle: "$100 gap (for existing patients only)"
-    description: |
-      For existing patients of the clinic, a 'doctor-on-call' is available for urgent advice and consultation after normal surgery hours.
+  - title: After Hours
+    subtitle: $100 gap (for existing patients only)
+    description: >
+      For existing patients of the clinic, a 'doctor-on-call' is available for
+      urgent advice and consultation after normal surgery hours.
+
 
       After hours consultations are charged at the Medicare rebate plus an additional maximum $100 gap, so patients will be at most $100 out of pocket.
+
 
       An invoice for the total amount will be sent during normal business hours after the consultation. There is no need to pay on the day, and the rebate portion of the fee can be claimed back from Medicare before paying your account.
