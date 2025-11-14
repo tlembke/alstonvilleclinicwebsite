@@ -224,3 +224,10 @@ team:
       - Hearing Aid Services
     roles:
       - allied-health
+  - name: Laura Kelly
+    title: Clinical Psychologist
+    bio: Laura is a clinical psychologist with Lismore Medicare Mental Health
+      Services. She is part of our clinic team on Tuesdays
+    roles:
+      - allied-health
+    image: /images/uploads/laura-kelly.jpeg
