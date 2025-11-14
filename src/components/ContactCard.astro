@@ -41,8 +41,7 @@ const bgClasses = primary
       <p class={`text-sm font-semibold mb-2 uppercase tracking-wide ${primary ? 'text-primary-700' : 'text-gray-500'}`}>
         {label}
       </p>
-      <p class={`text-xl font-bold ${primary ? 'text-primary-600' : 'text-gray-900'}`}>
-        {value}
+      <p class={`text-xl font-bold ${primary ? 'text-primary-600' : 'text-gray-900'}`} set:html={value}>
       </p>
     </div>
   </div>
