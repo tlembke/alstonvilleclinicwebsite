@@ -5,6 +5,8 @@ pubDate: 2024-11-14
 author: "Alstonville Clinic"
 ---
 
+![Joni conducting a diabetes group clinic](/images/blog/joni-diabetes.jpg)
+
 Well done to Joni our diabetic educator for running this diabetes clinic and enhancing the health of our Alstonville patients!
 
 Here is a short video of her wonderful job helping our patients as interviewed by APNA (Australian Primary Healthcare Nurses Association).
