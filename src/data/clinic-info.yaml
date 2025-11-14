@@ -11,7 +11,7 @@ hours:
   - day: "Saturday"
     time: "9:00 AM - 11:00 AM"
   - day: "Other hours"
-    time: "'On call'"
+    time: "'On call' 02 6628 0505"
 
 quickLinks:
   - label: "Book Online"
