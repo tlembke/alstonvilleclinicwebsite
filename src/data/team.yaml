@@ -1,246 +1,235 @@
-# Team Members with Role-based Filtering
-# Each member can have multiple roles: doctor, nurse, allied-health, admin
-
 team:
-  # Doctors
-  - name: "Dr Tony Lembke"
-    title: "GP, Partner"
-    image: "/images/team/tony-lembke.jpg"
-    bio: "Tony has been a partner GP at the Alstonville Clinic since 1993. RACGP GP of the Year 2012. Father of four and long-time rugby coach for Lismore City."
+  - name: Dr Tony Lembke
+    title: GP, Partner
+    image: /images/team/tony-lembke.jpg
+    bio: Tony has been a partner GP at the Alstonville Clinic since 1993. RACGP GP
+      of the Year 2012. Father of four and long-time rugby coach for Lismore
+      City.
     specialties:
-      - "General Practice"
-      - "Family Medicine"
+      - General Practice
+      - Family Medicine
     roles:
-      - "doctor"
-
-  - name: "Dr Luke Hogan"
-    title: "GP, Partner"
-    image: "/images/team/luke-hogan.jpg"
-    bio: "Luke has been a partner at Alstonville Clinic since 2015. He enjoys teaching junior doctors and is an avid runner and vegetable gardener. Married with five children."
+      - doctor
+  - name: Dr Vicki Liu
+    title: GP, Partner
+    image: /images/team/vicki-liu.jpg
+    bio: Vicki joined the clinic in 2011. She has a Diploma of Obstetrics and
+      Gynaecology and is certified in Implanon and Mirena insertion. Mother of
+      three with interests in hockey, hiking, and music.
     specialties:
-      - "General Practice"
-      - "Medical Education"
+      - Women's Health
+      - Obstetrics & Gynaecology
     roles:
-      - "doctor"
-
-  - name: "Dr Vicki Liu"
-    title: "General Practitioner"
-    image: "/images/team/vicki-liu.jpg"
-    bio: "Vicki joined the clinic in 2011. She has a Diploma of Obstetrics and Gynaecology and is certified in Implanon and Mirena insertion. Mother of three with interests in hockey, hiking, and music."
+      - doctor
+  - name: Dr Joshua Kingston
+    title: GP, Partner
+    image: /images/team/joshua-kingston.jpg
+    bio: Joshua joined the clinic in 2014 as a GP Registrar and passed his
+      Fellowship examination. An active cyclist and father to young son Silas.
     specialties:
-      - "Women's Health"
-      - "Obstetrics & Gynaecology"
+      - General Practice
+      - Sports Medicine
     roles:
-      - "doctor"
-
-  - name: "Dr Alison Skimmings"
-    title: "General Practitioner"
-    image: "/images/team/alison-skimmings.jpg"
-    bio: "Alison has cared for the community of Alstonville for more than 20 years. Life member of Ballina Hockey Club and mother of three daughters."
+      - doctor
+  - name: Dr Luke Hogan
+    title: GP
+    image: /images/team/luke-hogan.jpg
+    bio: Luke has been a doctor at the Alstonville Clinic since 2015. He enjoys
+      teaching junior doctors and is an avid runner and vegetable gardener.
+      Married with five children.
     specialties:
-      - "General Practice"
-      - "Family Medicine"
+      - General Practice
+      - Medical Education
     roles:
-      - "doctor"
-
-  - name: "Dr Joshua Kingston"
-    title: "GP, Partner (Fellow)"
-    image: "/images/team/joshua-kingston.jpg"
-    bio: "Joshua joined the clinic in 2014 as a GP Registrar and passed his Fellowship examination. An active cyclist and father to young son Silas."
+      - doctor
+  - name: Dr Alison Skimmings
+    title: General Practitioner
+    image: /images/team/alison-skimmings.jpg
+    bio: Alison has cared for the community of Alstonville for more than 20 years.
+      Life member of Ballina Hockey Club and mother of three daughters.
     specialties:
-      - "General Practice"
-      - "Sports Medicine"
+      - General Practice
+      - Family Medicine
     roles:
-      - "doctor"
-
-  - name: "Dr Caitlin Witt"
-    title: "General Practitioner"
-    image: "/images/team/caitlin-witt.jpg"
-    bio: "Caitlin joined as a registrar in February 2018. She has a unique background with a degree in Advertising, Film & Television before studying Medicine at Griffith University."
+      - doctor
+  - name: Dr Caitlin Witt
+    title: General Practitioner
+    image: /images/team/caitlin-witt.jpg
+    bio: Caitlin joined as a registrar in February 2018. She has a unique background
+      with a degree in Advertising, Film & Television before studying Medicine
+      at Griffith University.
     specialties:
-      - "General Practice"
+      - General Practice
     roles:
-      - "doctor"
-
-  - name: "Dr Anika Strahan"
-    title: "General Practitioner"
-    image: "/images/team/anika-strahan.jpg"
-    bio: "Anika joined in 2018 after training in Brisbane and Sydney. Married with four young children, she enjoys coastal exploration, sports, and farm activities."
+      - doctor
+  - name: Dr Anika Strahan
+    title: General Practitioner
+    image: /images/team/anika-strahan.jpg
+    bio: Anika joined in 2018 after training in Brisbane and Sydney. Married with
+      four young children, she enjoys coastal exploration, sports, and farm
+      activities.
     specialties:
-      - "General Practice"
-      - "Family Medicine"
+      - General Practice
+      - Family Medicine
     roles:
-      - "doctor"
-
-  - name: "Dr Tom Lucena"
-    title: "General Practitioner"
-    image: "/images/team/tom-lucena.jpg"
-    bio: "Tom is an Alstonville High School alumnus who returned after a decade away. He loves surfing, coffee, and the Sherlock Holmes series. He can't think of a better job than chatting to people all day."
+      - doctor
+  - name: Dr Tom Lucena
+    title: General Practitioner
+    image: /images/team/tom-lucena.jpg
+    bio: Tom is an Alstonville High School alumnus who returned after a decade away.
+      He loves surfing, coffee, and the Sherlock Holmes series. He can't think
+      of a better job than chatting to people all day.
     specialties:
-      - "General Practice"
+      - General Practice
     roles:
-      - "doctor"
-
-  - name: "Dr Justin Pannu"
-    title: "General Practitioner"
-    image: "/images/team/justin-pannu.jpg"
-    bio: "Justin completed his Doctor of Medicine at Griffith University after initial training in Canada. He spent 6 years on the Gold Coast before joining our team. Enjoys golf and exploring Northern NSW."
+      - doctor
+  - name: Dr Justin Pannu
+    title: General Practitioner
+    image: /images/team/justin-pannu.jpg
+    bio: Justin completed his Doctor of Medicine at Griffith University after
+      initial training in Canada. He spent 6 years on the Gold Coast before
+      joining our team. Enjoys golf and exploring Northern NSW.
     specialties:
-      - "General Practice"
+      - General Practice
     roles:
-      - "doctor"
-
-  - name: "Dr Lydia Fleming"
-    title: "General Practitioner"
-    image: "/images/team/lydia-fleming.jpg"
-    bio: "Lydia joined the clinic in January and is currently on maternity leave."
+      - doctor
+  - name: Dr Lydia Fleming
+    title: GP
+    image: /images/team/lydia-fleming.jpg
+    bio: Lydia joined the clinic in January 2025 and is currently on maternity
+      leave. Congratulations Lydia!
     specialties:
-      - "General Practice"
+      - General Practice
     roles:
-      - "doctor"
-
-  - name: "Dr Martyn Kinvig"
-    title: "GP Registrar"
-    image: "/images/team/martin-kinvig.jpg"
-    bio: "Martyn is a GP Registrar bringing fresh perspectives and dedication to patient care at Alstonville Clinic."
+      - doctor
+  - name: Dr Martyn Kinvig
+    title: GP Registrar
+    image: /images/team/martin-kinvig.jpg
+    bio: Martyn is a GP Registrar bringing fresh perspectives and dedication to
+      patient care at Alstonville Clinic.
     specialties:
-      - "General Practice"
+      - General Practice
     roles:
-      - "doctor"
-
-  # Nurses
-  - name: "Janeen Morris"
-    title: "Practice Manager & Nursing Team Lead"
-    image: "/images/team/janeen-morris.jpg"
-    bio: "Janeen has been with the clinic since 2007, leading our nursing team with dedication and expertise. Enjoys bush walking with family."
+      - doctor
+  - name: Janeen Morris
+    title: Practice Manager & Nursing Team Lead
+    image: /images/team/janeen-morris.jpg
+    bio: Janeen has been with the clinic since 2007, leading our nursing team with
+      dedication and expertise. Enjoys bush walking with family.
     specialties:
-      - "Practice Management"
-      - "Nursing Leadership"
+      - Practice Management
+      - Nursing Leadership
     roles:
-      - "nurse"
-      - "admin"
-
-  - name: "Wren Casement"
-    title: "Practice Nurse"
-    image: "/images/team/wren-casement.jpg"
-    bio: "Wren brings her nursing experience to us from the UK via Lightning Ridge, offering a unique perspective and valuable skills to our team."
+      - nurse
+      - admin
+  - name: Wren Casement
+    title: Practice Nurse
+    image: /images/team/wren-casement.jpg
+    bio: Wren brings her nursing experience to us from the UK via Lightning Ridge,
+      offering a unique perspective and valuable skills to our team.
     specialties:
-      - "General Practice Nursing"
+      - General Practice Nursing
     roles:
-      - "nurse"
-
-  - name: "Lyn Wade"
-    title: "Practice Nurse"
-    image: "/images/team/lyn-wade.jpg"
-    bio: "Lyn is a senior team member and North Coast local. When not caring for patients, she enjoys kayaking and spoiling her grandchildren."
+      - nurse
+  - name: Lyn Wade
+    title: Practice Nurse
+    image: /images/team/lyn-wade.jpg
+    bio: Lyn is a senior team member and North Coast local. When not caring for
+      patients, she enjoys kayaking and spoiling her grandchildren.
     specialties:
-      - "General Practice Nursing"
+      - General Practice Nursing
     roles:
-      - "nurse"
-
-  - name: "Joni Mackenzie"
-    title: "RN, Diabetes Educator"
-    image: "/images/team/joni-mackenzie.jpg"
-    bio: "Joni brings extensive experience in community nursing and diabetes clinic management, along with a fantastic laugh that brightens our clinic."
+      - nurse
+  - name: Joni Mackenzie
+    title: RN, Diabetes Educator
+    image: /images/team/joni-mackenzie.jpg
+    bio: Joni brings extensive experience in community nursing and diabetes clinic
+      management, along with a fantastic laugh that brightens our clinic.
     specialties:
-      - "Diabetes Education"
-      - "Community Nursing"
+      - Diabetes Education
+      - Community Nursing
     roles:
-      - "nurse"
-      - "allied-health"
-
-  - name: "Natasha Tutticci"
-    title: "Practice Nurse"
-    image: "/images/team/natasha-tutticci.jpg"
-    bio: "Natasha is a valued member of our nursing team, providing compassionate care to our patients."
+      - nurse
+      - allied-health
+  - name: Natasha Tutticci
+    title: Practice Nurse
+    image: /images/team/natasha-tutticci.jpg
+    bio: Natasha is a valued member of our nursing team, providing compassionate
+      care to our patients.
     specialties:
-      - "General Practice Nursing"
+      - General Practice Nursing
     roles:
-      - "nurse"
-
-  # Admin Staff
-  - name: "Angela Marriott"
-    title: "Accounts"
-    image: "/images/team/angela-marriott.jpg"
-    bio: "Angela manages our accounts with precision and care, ensuring smooth financial operations for the clinic."
+      - nurse
+  - name: Angela Marriott
+    title: Accounts
+    image: /images/team/angela-marriott.jpg
+    bio: Angela manages our accounts with precision and care, ensuring smooth
+      financial operations for the clinic.
     roles:
-      - "admin"
-
-  - name: "Karan Tucker"
-    title: "Accounts"
-    image: "/images/team/karan-tucker.jpg"
-    bio: "Karan is part of our accounts team, helping to keep our practice running efficiently."
+      - admin
+  - name: Karan Tucker
+    title: Accounts
+    image: /images/team/karan-tucker.jpg
+    bio: Karan is part of our accounts team, helping to keep our practice running
+      efficiently.
     roles:
-      - "admin"
-
-  - name: "Kerrilee Brown"
-    title: "Receptionist"
-    image: "/images/team/kerrilee-brown.jpg"
-    bio: "Kerrilee is a friendly face at our reception, helping patients with appointments and inquiries."
+      - admin
+  - name: Kerrilee Brown
+    title: Receptionist
+    image: /images/team/kerrilee-brown.jpg
+    bio: Kerrilee is a friendly face at our reception, helping patients with
+      appointments and inquiries.
     roles:
-      - "admin"
-
-  - name: "Regan Vidler"
-    title: "Receptionist"
-    image: "/images/team/regan-vidler.jpg"
-    bio: "Regan provides excellent customer service at our front desk, ensuring a welcoming experience for all patients."
+      - admin
+  - name: Regan Vidler
+    title: Receptionist
+    image: /images/team/regan-vidler.jpg
+    bio: Regan provides excellent customer service at our front desk, ensuring a
+      welcoming experience for all patients.
     roles:
-      - "admin"
-
-  - name: "Sue Bryant"
-    title: "Receptionist"
-    image: "/images/team/sue-bryant.jpg"
-    bio: "Sue is part of our solutions-focused reception team, serving as a main liaison between patients and our healthcare providers."
+      - admin
+  - name: Sue Bryant
+    title: Receptionist
+    image: /images/team/sue-bryant.jpg
+    bio: Sue is part of our solutions-focused reception team, serving as a main
+      liaison between patients and our healthcare providers.
     roles:
-      - "admin"
-
-  - name: "Jodie Dardengo"
-    title: "Receptionist"
-    image: "/images/team/jodie-dardengo.jpg"
-    bio: "Jodie welcomes patients with a friendly smile and helps coordinate their care with our medical team."
+      - admin
+  - name: Jodie Dardengo
+    title: Receptionist
+    image: /images/team/jodie-dardengo.jpg
+    bio: Jodie welcomes patients with a friendly smile and helps coordinate their
+      care with our medical team.
     roles:
-      - "admin"
-
-  - name: "Julie Spinks"
-    title: "Receptionist"
-    image: "/images/team/julie-spinks.jpg"
-    bio: "Julie is a dedicated member of our reception team, ensuring smooth patient flow and excellent service."
+      - admin
+  - name: Anne Moehead
+    title: Memory Assessment Specialist (Retired)
+    image: /images/team/anne-moehead.jpg
+    bio: Anne provided invaluable support at our Annexe with memory assessments.
+      We're grateful for her dedicated service to our patients and community.
     roles:
-      - "admin"
-
-  - name: "Fiona Toghill"
-    title: "Receptionist"
-    image: "/images/team/fiona-toghill.jpg"
-    bio: "Fiona helps patients navigate their healthcare journey with professionalism and warmth."
-    roles:
-      - "admin"
-
-  - name: "Anne Moehead"
-    title: "Memory Assessment Specialist (Retired)"
-    image: "/images/team/anne-moehead.jpg"
-    bio: "Anne provided invaluable support at our Annexe with memory assessments. We're grateful for her dedicated service to our patients and community."
-    roles:
-      - "admin"
-
-  # Allied Health
-  - name: "Carolyn Davis"
-    title: "Accredited Dietitian"
-    image: "/images/team/carolyn-davis.jpg"
-    bio: "Carolyn specializes in weight loss, food allergies and intolerances (including coeliac disease), and diets for people with special needs such as kidney disease, diabetes, and cancer."
+      - admin
+  - name: Carolyn Davis
+    title: Accredited Dietitian
+    image: /images/team/carolyn-davis.jpg
+    bio: Carolyn specializes in weight loss, food allergies and intolerances
+      (including coeliac disease), and diets for people with special needs such
+      as kidney disease, diabetes, and cancer.
     specialties:
-      - "Weight Management"
-      - "Food Allergies & Intolerances"
-      - "Medical Nutrition Therapy"
+      - Weight Management
+      - Food Allergies & Intolerances
+      - Medical Nutrition Therapy
     roles:
-      - "allied-health"
-
-  - name: "Nick Robson"
-    title: "Audiologist"
-    image: "/images/team/nick-robson.jpg"
-    bio: "Nick joined our Annexe building in October 2024 with Northern Rivers Audiology. With 14+ years of clinical experience and a Master of Audiology from University of Queensland, he provides comprehensive hearing care."
+      - allied-health
+  - name: Nick Robson
+    title: Audiologist
+    image: /images/team/nick-robson.jpg
+    bio: Nick joined our Annexe building in October 2024 with Northern Rivers
+      Audiology. With 14+ years of clinical experience and a Master of Audiology
+      from University of Queensland, he provides comprehensive hearing care.
     specialties:
-      - "Hearing Assessments"
-      - "Tinnitus Support"
-      - "Hearing Aid Services"
+      - Hearing Assessments
+      - Tinnitus Support
+      - Hearing Aid Services
     roles:
-      - "allied-health"
+      - allied-health
