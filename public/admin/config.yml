@@ -26,30 +26,33 @@ collections:
   # Team Members Collection
   - name: "team"
     label: "Team Members"
-    file: "src/data/team.yaml"
-    fields:
+    files:
       - label: "Team Members"
         name: "team"
-        widget: "list"
+        file: "src/data/team.yaml"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Title/Role", name: "title", widget: "string" }
-          - { label: "Photo", name: "image", widget: "image" }
-          - { label: "Biography", name: "bio", widget: "text" }
-          - label: "Specialties"
-            name: "specialties"
+          - label: "Team Members"
+            name: "team"
             widget: "list"
-            required: false
-            field: { label: "Specialty", name: "specialty", widget: "string" }
-          - label: "Roles/Categories"
-            name: "roles"
-            widget: "select"
-            multiple: true
-            options:
-              - { label: "Doctor", value: "doctor" }
-              - { label: "Nurse", value: "nurse" }
-              - { label: "Allied Health", value: "allied-health" }
-              - { label: "Admin", value: "admin" }
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Title/Role", name: "title", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Biography", name: "bio", widget: "text" }
+              - label: "Specialties"
+                name: "specialties"
+                widget: "list"
+                required: false
+                field: { label: "Specialty", name: "specialty", widget: "string" }
+              - label: "Roles/Categories"
+                name: "roles"
+                widget: "select"
+                multiple: true
+                options:
+                  - { label: "Doctor", value: "doctor" }
+                  - { label: "Nurse", value: "nurse" }
+                  - { label: "Allied Health", value: "allied-health" }
+                  - { label: "Admin", value: "admin" }
 
   # Clinic Information
   - name: "clinic"
