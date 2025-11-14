@@ -1,0 +1,64 @@
+services:
+  - name: "Health and Wellness"
+    icon: "heart"
+    description: "Preventive care, health assessments, and lifestyle advice"
+
+  - name: "Chronic Disease Management"
+    icon: "medical"
+    description: "Comprehensive care for diabetes, heart disease, asthma, and other chronic conditions"
+
+  - name: "Urgent Care"
+    icon: "emergency"
+    description: "Same-day appointments for acute illnesses and injuries"
+
+  - name: "Elderly Health"
+    icon: "eldercare"
+    description: "Geriatric assessments, medication reviews, and aged care planning"
+
+  - name: "Mother and Baby"
+    icon: "baby"
+    description: "Antenatal and postnatal care, baby health checks, and breastfeeding support"
+
+  - name: "Home Visits"
+    icon: "home"
+    description: "Medical care in the comfort of your home for patients unable to visit the clinic"
+
+  - name: "Children's Health"
+    icon: "child"
+    description: "Childhood immunizations, developmental assessments, and pediatric care"
+
+  - name: "Skin Cancer Surgery"
+    icon: "skin"
+    description: "Skin checks, biopsies, and minor surgical procedures"
+
+  - name: "Sports Medicine"
+    icon: "sports"
+    description: "Sports injuries, pre-participation assessments, and exercise advice"
+
+  - name: "Workplace Health"
+    icon: "work"
+    description: "Pre-employment medicals, workplace injury management, and health screenings"
+
+  - name: "Travel Medicine"
+    icon: "travel"
+    description: "Travel vaccinations, health advice, and malaria prevention"
+
+  - name: "Women's Health"
+    icon: "female"
+    description: "Cervical screening, contraception, menopause management, and reproductive health"
+
+  - name: "Men's Health"
+    icon: "male"
+    description: "Prostate checks, men's mental health, and preventive screenings"
+
+  - name: "Mental Health"
+    icon: "brain"
+    description: "Depression and anxiety management, mental health care plans, and counseling"
+
+  - name: "Dietetics"
+    icon: "nutrition"
+    description: "Nutritional counseling and dietary management for various health conditions"
+
+  - name: "Express Clinic"
+    icon: "fast"
+    description: "Quick service for repeat prescriptions and simple requests"

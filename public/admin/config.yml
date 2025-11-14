@@ -1,0 +1,106 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# Uncomment when testing locally
+# local_backend: true
+
+media_folder: "public/images/uploads" # Where media files will be stored
+public_folder: "/images/uploads" # Public path to media folder
+
+collections:
+  # Blog Posts Collection
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Publish Date", name: "pubDate", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Alstonville Clinic" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Team Members Collection
+  - name: "team"
+    label: "Team Members"
+    file: "src/data/team.yaml"
+    fields:
+      - label: "Team Members"
+        name: "team"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Title/Role", name: "title", widget: "string" }
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Biography", name: "bio", widget: "text" }
+          - label: "Specialties"
+            name: "specialties"
+            widget: "list"
+            required: false
+            field: { label: "Specialty", name: "specialty", widget: "string" }
+          - label: "Roles/Categories"
+            name: "roles"
+            widget: "select"
+            multiple: true
+            options:
+              - { label: "Doctor", value: "doctor" }
+              - { label: "Nurse", value: "nurse" }
+              - { label: "Allied Health", value: "allied-health" }
+              - { label: "Admin", value: "admin" }
+
+  # Clinic Information
+  - name: "clinic"
+    label: "Clinic Settings"
+    files:
+      - label: "Clinic Information"
+        name: "clinic-info"
+        file: "src/data/clinic-info.yaml"
+        fields:
+          - { label: "Clinic Name", name: "name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Fax", name: "fax", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - label: "Opening Hours"
+            name: "hours"
+            widget: "list"
+            fields:
+              - { label: "Day(s)", name: "day", widget: "string" }
+              - { label: "Time", name: "time", widget: "string" }
+          - label: "Quick Links"
+            name: "quickLinks"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Type", name: "type", widget: "select", options: ["primary", "secondary"] }
+          - label: "Practice Philosophy"
+            name: "philosophy"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+          - label: "Fees Information"
+            name: "fees"
+            widget: "object"
+            fields:
+              - { label: "Standard Consultation", name: "standard", widget: "string" }
+              - { label: "Bulk Billing", name: "bulkBilling", widget: "string" }
+              - { label: "MyMedicare", name: "medicare", widget: "string" }
+
+      - label: "Services"
+        name: "services"
+        file: "src/data/services.yaml"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Service Name", name: "name", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "string", hint: "Icon name from the predefined set" }
+              - { label: "Description", name: "description", widget: "text" }

@@ -1,0 +1,189 @@
+# Team Members
+# Add team member photos to public/images/team/ folder
+
+doctors:
+  - name: "Dr Tony Lembke"
+    role: "GP, Partner"
+    image: "/images/team/tony-lembke.jpg"
+    bio: "Tony has been a partner GP at the Alstonville Clinic since 1993. RACGP GP of the Year 2012. Father of four and long-time rugby coach for Lismore City."
+    specialties:
+      - "General Practice"
+      - "Family Medicine"
+
+  - name: "Dr Luke Hogan"
+    role: "GP, Partner"
+    image: "/images/team/luke-hogan.jpg"
+    bio: "Luke has been a partner at Alstonville Clinic since 2015. He enjoys teaching junior doctors and is an avid runner and vegetable gardener. Married with five children."
+    specialties:
+      - "General Practice"
+      - "Medical Education"
+
+  - name: "Dr Vicki Liu"
+    role: "General Practitioner"
+    image: "/images/team/vicki-liu.jpg"
+    bio: "Vicki joined the clinic in 2011. She has a Diploma of Obstetrics and Gynaecology and is certified in Implanon and Mirena insertion. Mother of three with interests in hockey, hiking, and music."
+    specialties:
+      - "Women's Health"
+      - "Obstetrics & Gynaecology"
+
+  - name: "Dr Alison Skimmings"
+    role: "General Practitioner"
+    image: "/images/team/alison-skimmings.jpg"
+    bio: "Alison has cared for the community of Alstonville for more than 20 years. Life member of Ballina Hockey Club and mother of three daughters."
+    specialties:
+      - "General Practice"
+      - "Family Medicine"
+
+  - name: "Dr Joshua Kingston"
+    role: "GP, Partner (Fellow)"
+    image: "/images/team/joshua-kingston.jpg"
+    bio: "Joshua joined the clinic in 2014 as a GP Registrar and passed his Fellowship examination. An active cyclist and father to young son Silas."
+    specialties:
+      - "General Practice"
+      - "Sports Medicine"
+
+  - name: "Dr Caitlin Witt"
+    role: "General Practitioner"
+    image: "/images/team/caitlin-witt.jpg"
+    bio: "Caitlin joined as a registrar in February 2018. She has a unique background with a degree in Advertising, Film & Television before studying Medicine at Griffith University."
+    specialties:
+      - "General Practice"
+
+  - name: "Dr Anika Strahan"
+    role: "General Practitioner"
+    image: "/images/team/anika-strahan.jpg"
+    bio: "Anika joined in 2018 after training in Brisbane and Sydney. Married with four young children, she enjoys coastal exploration, sports, and farm activities."
+    specialties:
+      - "General Practice"
+      - "Family Medicine"
+
+  - name: "Dr Tom Lucena"
+    role: "General Practitioner"
+    image: "/images/team/tom-lucena.jpg"
+    bio: "Tom is an Alstonville High School alumnus who returned after a decade away. He loves surfing, coffee, and the Sherlock Holmes series. He can't think of a better job than chatting to people all day."
+    specialties:
+      - "General Practice"
+
+  - name: "Dr Justin Pannu"
+    role: "General Practitioner"
+    image: "/images/team/justin-pannu.jpg"
+    bio: "Justin completed his Doctor of Medicine at Griffith University after initial training in Canada. He spent 6 years on the Gold Coast before joining our team. Enjoys golf and exploring Northern NSW."
+    specialties:
+      - "General Practice"
+
+  - name: "Dr Lydia Fleming"
+    role: "General Practitioner"
+    image: "/images/team/lydia-fleming.jpg"
+    bio: "Lydia joined the clinic in January and is currently on maternity leave."
+    specialties:
+      - "General Practice"
+
+  - name: "Dr Martyn Kinvig"
+    role: "GP Registrar"
+    image: "/images/team/martin-kinvig.jpg"
+    bio: "Martyn is a GP Registrar bringing fresh perspectives and dedication to patient care at Alstonville Clinic."
+    specialties:
+      - "General Practice"
+
+nurses:
+  - name: "Janeen Morris"
+    role: "Practice Manager & Nursing Team Lead"
+    image: "/images/team/janeen-morris.jpg"
+    bio: "Janeen has been with the clinic since 2007, leading our nursing team with dedication and expertise. Enjoys bush walking with family."
+    specialties:
+      - "Practice Management"
+      - "Nursing Leadership"
+
+  - name: "Wren Casement"
+    role: "Practice Nurse"
+    image: "/images/team/wren-casement.jpg"
+    bio: "Wren brings her nursing experience to us from the UK via Lightning Ridge, offering a unique perspective and valuable skills to our team."
+    specialties:
+      - "General Practice Nursing"
+
+  - name: "Lyn Wade"
+    role: "Practice Nurse"
+    image: "/images/team/lyn-wade.jpg"
+    bio: "Lyn is a senior team member and North Coast local. When not caring for patients, she enjoys kayaking and spoiling her grandchildren."
+    specialties:
+      - "General Practice Nursing"
+
+  - name: "Joni Mackenzie"
+    role: "RN, Diabetes Educator"
+    image: "/images/team/joni-mackenzie.jpg"
+    bio: "Joni brings extensive experience in community nursing and diabetes clinic management, along with a fantastic laugh that brightens our clinic."
+    specialties:
+      - "Diabetes Education"
+      - "Community Nursing"
+
+  - name: "Natasha Tutticci"
+    role: "Practice Nurse"
+    image: "/images/team/natasha-tutticci.jpg"
+    bio: "Natasha is a valued member of our nursing team, providing compassionate care to our patients."
+    specialties:
+      - "General Practice Nursing"
+
+admin:
+  - name: "Angela Marriott"
+    role: "Accounts"
+    image: "/images/team/angela-marriott.jpg"
+    bio: "Angela manages our accounts with precision and care, ensuring smooth financial operations for the clinic."
+
+  - name: "Karan Tucker"
+    role: "Accounts"
+    image: "/images/team/karan-tucker.jpg"
+    bio: "Karan is part of our accounts team, helping to keep our practice running efficiently."
+
+  - name: "Kerrilee Brown"
+    role: "Receptionist"
+    image: "/images/team/kerrilee-brown.jpg"
+    bio: "Kerrilee is a friendly face at our reception, helping patients with appointments and inquiries."
+
+  - name: "Regan Vidler"
+    role: "Receptionist"
+    image: "/images/team/regan-vidler.jpg"
+    bio: "Regan provides excellent customer service at our front desk, ensuring a welcoming experience for all patients."
+
+  - name: "Sue Bryant"
+    role: "Receptionist"
+    image: "/images/team/sue-bryant.jpg"
+    bio: "Sue is part of our solutions-focused reception team, serving as a main liaison between patients and our healthcare providers."
+
+  - name: "Jodie Dardengo"
+    role: "Receptionist"
+    image: "/images/team/jodie-dardengo.jpg"
+    bio: "Jodie welcomes patients with a friendly smile and helps coordinate their care with our medical team."
+
+  - name: "Julie Spinks"
+    role: "Receptionist"
+    image: "/images/team/julie-spinks.jpg"
+    bio: "Julie is a dedicated member of our reception team, ensuring smooth patient flow and excellent service."
+
+  - name: "Fiona Toghill"
+    role: "Receptionist"
+    image: "/images/team/fiona-toghill.jpg"
+    bio: "Fiona helps patients navigate their healthcare journey with professionalism and warmth."
+
+  - name: "Anne Moehead"
+    role: "Memory Assessment Specialist (Retired)"
+    image: "/images/team/anne-moehead.jpg"
+    bio: "Anne provided invaluable support at our Annexe with memory assessments. We're grateful for her dedicated service to our patients and community."
+
+alliedHealth:
+  - name: "Carolyn Davis"
+    role: "Accredited Dietitian"
+    image: "/images/team/carolyn-davis.jpg"
+    bio: "Carolyn specializes in weight loss, food allergies and intolerances (including coeliac disease), and diets for people with special needs such as kidney disease, diabetes, and cancer."
+    specialties:
+      - "Weight Management"
+      - "Food Allergies & Intolerances"
+      - "Medical Nutrition Therapy"
+
+  - name: "Nick Robson"
+    role: "Audiologist"
+    image: "/images/team/nick-robson.jpg"
+    bio: "Nick joined our Annexe building in October 2024 with Northern Rivers Audiology. With 14+ years of clinical experience and a Master of Audiology from University of Queensland, he provides comprehensive hearing care."
+    specialties:
+      - "Hearing Assessments"
+      - "Tinnitus Support"
+      - "Hearing Aid Services"

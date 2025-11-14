@@ -1,0 +1,92 @@
+---
+import { readFileSync } from 'fs';
+import * as yaml from 'js-yaml';
+
+const clinicInfoRaw = readFileSync('src/data/clinic-info.yaml', 'utf8');
+const clinicInfo = yaml.load(clinicInfoRaw) as any;
+---
+
+<nav class="fixed top-0 left-0 right-0 bg-white/98 backdrop-blur-md shadow-lg z-50 border-b border-gray-100">
+  <div class="container-custom">
+    <div class="flex items-center justify-between h-20">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <a href="#home" class="group flex items-center space-x-2">
+          <div class="p-2 bg-primary-600 rounded-lg group-hover:bg-primary-700 transition">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            </svg>
+          </div>
+          <span class="text-2xl font-bold text-primary-600 group-hover:text-primary-700 transition">
+            {clinicInfo.name}
+          </span>
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center space-x-1">
+        <a href="#services" class="text-gray-700 hover:text-primary-600 hover:bg-primary-50 px-4 py-2 rounded-lg transition font-medium">Services</a>
+        <a href="#team" class="text-gray-700 hover:text-primary-600 hover:bg-primary-50 px-4 py-2 rounded-lg transition font-medium">Our Team</a>
+        <a href="#appointments" class="text-gray-700 hover:text-primary-600 hover:bg-primary-50 px-4 py-2 rounded-lg transition font-medium">Appointments</a>
+        <a href="#fees" class="text-gray-700 hover:text-primary-600 hover:bg-primary-50 px-4 py-2 rounded-lg transition font-medium">Fees</a>
+        <a href="#news" class="text-gray-700 hover:text-primary-600 hover:bg-primary-50 px-4 py-2 rounded-lg transition font-medium">News</a>
+        <a
+          href={`tel:${clinicInfo.phone.replace(/\s/g, '')}`}
+          class="ml-4 bg-primary-600 text-white px-6 py-3 rounded-xl hover:bg-primary-700 transition font-semibold shadow-lg shadow-primary-600/30 hover:shadow-xl hover:shadow-primary-600/40"
+        >
+          {clinicInfo.phone}
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-btn"
+        class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition"
+        aria-label="Toggle menu"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4">
+      <div class="flex flex-col space-y-3">
+        <a href="#services" class="text-gray-700 hover:text-primary-600 transition font-medium py-2">Services</a>
+        <a href="#team" class="text-gray-700 hover:text-primary-600 transition font-medium py-2">Our Team</a>
+        <a href="#appointments" class="text-gray-700 hover:text-primary-600 transition font-medium py-2">Appointments</a>
+        <a href="#fees" class="text-gray-700 hover:text-primary-600 transition font-medium py-2">Fees</a>
+        <a href="#news" class="text-gray-700 hover:text-primary-600 transition font-medium py-2">News</a>
+        <a
+          href={`tel:${clinicInfo.phone.replace(/\s/g, '')}`}
+          class="bg-primary-600 text-white px-6 py-2.5 rounded-lg hover:bg-primary-700 transition font-medium text-center"
+        >
+          {clinicInfo.phone}
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Mobile menu toggle
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+
+  // Close mobile menu when clicking a link
+  const mobileLinks = menu?.querySelectorAll('a');
+  mobileLinks?.forEach((link) => {
+    link.addEventListener('click', () => {
+      menu?.classList.add('hidden');
+    });
+  });
+</script>

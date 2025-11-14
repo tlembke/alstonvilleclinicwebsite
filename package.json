@@ -1,0 +1,29 @@
+{
+  "name": "alstonvilleclinicwebsite",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Alstonville Clinic - Modern static website",
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.15.6",
+    "decap-cms-app": "^3.9.0",
+    "netlify-identity-widget": "^1.9.2",
+    "tailwindcss": "^3.4.18"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.5",
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.1",
+    "typescript": "^5.9.3"
+  }
+}

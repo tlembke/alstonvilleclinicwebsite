@@ -1,0 +1,45 @@
+name: "Alstonville Clinic"
+tagline: "Your Medical Home"
+address: "61 Main St, Alstonville, NSW 2477"
+phone: "(02) 6628 0400"
+fax: "(02) 6628 2508"
+email: "reception@alstonville.clinic"
+
+hours:
+  - day: "Monday - Friday"
+    time: "8:00 AM - 6:00 PM"
+  - day: "Saturday"
+    time: "8:00 AM - 12:00 PM"
+  - day: "Sunday"
+    time: "Closed"
+
+quickLinks:
+  - label: "Book Online"
+    url: "#appointments"
+    icon: "calendar"
+    type: "primary"
+  - label: "Call Now"
+    url: "tel:0266280400"
+    icon: "phone"
+    type: "secondary"
+  - label: "Email Us"
+    url: "mailto:reception@alstonville.clinic"
+    icon: "email"
+    type: "secondary"
+
+philosophy:
+  - title: "Accessible Care"
+    description: "We strive to provide timely access to healthcare services for all our patients."
+  - title: "Person Centered Care"
+    description: "We listen to our patients and tailor our care to meet individual needs."
+  - title: "Comprehensive Care"
+    description: "From prevention to chronic disease management, we provide holistic healthcare."
+  - title: "Coordinated Care"
+    description: "We work with specialists and allied health professionals to ensure seamless care."
+  - title: "Quality and Safety"
+    description: "We maintain the highest standards of clinical quality and patient safety."
+
+fees:
+  standard: "Standard consultation gap fees apply"
+  bulkBilling: "We bulk bill eligible patients including children under 16, pensioners, and veterans"
+  medicare: "MyMedicare registered patients receive additional benefits"
