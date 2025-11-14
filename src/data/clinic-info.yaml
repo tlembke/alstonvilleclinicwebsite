@@ -29,15 +29,15 @@ quickLinks:
 
 philosophy:
   - title: "Accessible Care"
-    description: "We strive to provide timely access to healthcare services for all our patients."
-  - title: "Person Centered Care"
-    description: "We listen to our patients and tailor our care to meet individual needs."
+    description: "All our patients with acute care needs can be seen by one of our doctors each day. Routine appointments can also be scheduled with any of our doctors at any time in the future."
+  - title: "Person Centred Care"
+    description: "We focus on patient health needs and adopt a shared decision making approach. We maintain a Patient Advisory Group to guide improvements."
   - title: "Comprehensive Care"
-    description: "From prevention to chronic disease management, we provide holistic healthcare."
+    description: "Our team includes general practitioners, registered nurses, chronic condition managers, and allied health professionals, with many doctors serving the community for over 20 years."
   - title: "Coordinated Care"
-    description: "We work with specialists and allied health professionals to ensure seamless care."
+    description: "We aim to ensure patients can access the care team they need to best manage their health through partnerships with local specialists and a care coordinator for complex cases."
   - title: "Quality and Safety"
-    description: "We maintain the highest standards of clinical quality and patient safety."
+    description: "We pursue continuous quality improvement and operate a Patient Safety program, with all doctors participating in professional development as RACGP fellows or members."
 
 fees:
   - title: "Standard"
