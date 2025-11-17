@@ -157,7 +157,6 @@ const latestPosts = allPosts
                   role={member.title}
                   image={member.image}
                   bio={member.bio}
-                  specialties={member.specialties}
                 />
               </div>
             ))
@@ -420,7 +419,7 @@ const latestPosts = allPosts
     <script>
       // Fee details toggle
       document.querySelectorAll('.fee-toggle').forEach((button) => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function(this: HTMLElement) {
           const card = this.closest('div[class*="rounded-2xl"]');
           const details = card?.querySelector('.fee-details') as HTMLElement;
           const toggleText = this.querySelector('.toggle-text');
