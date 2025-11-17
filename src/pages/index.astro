@@ -136,13 +136,7 @@ const latestPosts = allPosts
               data-tab="nurse-allied"
               class="team-tab px-8 py-3 rounded-xl font-semibold transition-all duration-300 text-gray-700 hover:text-gray-900"
             >
-              Nurses & Allied Health
-            </button>
-            <button
-              data-tab="admin"
-              class="team-tab px-8 py-3 rounded-xl font-semibold transition-all duration-300 text-gray-700 hover:text-gray-900"
-            >
-              Admin
+              Allied Health
             </button>
           </div>
         </div>
@@ -179,8 +173,6 @@ const latestPosts = allPosts
             shouldShow = roles.includes('doctor');
           } else if (activeTab === 'nurse-allied') {
             shouldShow = roles.includes('nurse') || roles.includes('allied-health');
-          } else if (activeTab === 'admin') {
-            shouldShow = roles.includes('admin');
           }
 
           if (shouldShow) {
