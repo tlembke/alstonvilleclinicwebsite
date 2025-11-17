@@ -172,7 +172,7 @@ const latestPosts = allPosts
           if (activeTab === 'doctor') {
             shouldShow = roles.includes('doctor');
           } else if (activeTab === 'nurse-allied') {
-            shouldShow = roles.includes('nurse') || roles.includes('allied-health');
+            shouldShow = roles.includes('allied-health');
           }
 
           if (shouldShow) {

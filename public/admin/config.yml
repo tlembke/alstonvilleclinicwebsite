@@ -52,7 +52,6 @@ collections:
                   - { label: "Doctor", value: "doctor" }
                   - { label: "Nurse", value: "nurse" }
                   - { label: "Allied Health", value: "allied-health" }
-                  - { label: "Admin", value: "admin" }
 
   # Clinic Information
   - name: "clinic"
