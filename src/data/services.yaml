@@ -25,7 +25,7 @@ services:
 
   - name: "Children's Health"
     icon: "child"
-    description: "Childhood immunizations, developmental assessments, and pediatric care"
+    description: "Childhood immunisations, developmental assessments, and paediatric care"
 
   - name: "Skin Cancer Surgery"
     icon: "skin"
